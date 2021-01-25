@@ -1,0 +1,852 @@
+﻿<!DOCTYPE html>
+<html lang="ru" style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<meta name="robots" content="noindex, nofollow">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title name="index">Оплата товара</title>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+	<meta name="description" content="Оплата товара">
+	<link href="//lil-store.ru/css.css?family=Play:400,700" rel="stylesheet" type="text/css">
+	<link rel="apple-touch-icon" sizes="57x57" href="//lil-store.ru/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="//lil-store.ru/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="//lil-store.ru/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="//lil-store.ru/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="//lil-store.ru/favicon/apple-touch-icon-114x114.png">
+	<link rel="icon" type="image/png" href="//lil-store.ru/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="//lil-store.ru/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="//lil-store.ru/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="//lil-store.ru/favicon/manifest.json">
+	<link rel="mask-icon" href="//lil-store.ru/favicon/safari-pinned-tab.svg" color="#999">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<link href="//lil-store.ru/animated/animate.css" rel="stylesheet" type="text/css">
+	<link href="//lil-store.ru/styles/lib.css" rel="stylesheet" type="text/css">
+	<link href="//lil-store.ru/styles/app.css" rel="stylesheet" type="text/css">
+	<link href="//lil-store.ru/styles/animate.css" rel="stylesheet" type="text/css">
+	<link href="//lil-store.ru/styles/catalog.css" rel="stylesheet" type="text/css">
+	<link href="//lil-store.ru/styles/font-awesome-css.min.css" rel="stylesheet" type="text/css">
+	<link href="//lil-store.ru/styles/favorite.css" rel="stylesheet" type="text/css">
+	<script src="//lil-store.ru/scripts/vendor/modernizrd334.js?v=1501695553"></script>
+	<script src="//lil-store.ru/scripts/jquery-2.2.4.min7293.js?v=1505226576"></script>
+	<script src="//lil-store.ru/scripts/a0ba4cf766.js"></script>
+	<link rel="//lil-store.ru/stylesheet" href="//lil-store.ru/scripts/jquery-ui.css">
+	<script src="//lil-store.ru/scripts/jquery-1.12.4.js"></script>
+	<script src="//lil-store.ru/scripts/jquery-ui.js"></script>
+	<script src="//lil-store.ru/scripts/jsearch.js"></script>
+</head>
+
+<body class="">
+	<div class="page">
+		<div class="page-inner">
+			<header class="header js-header">
+				<div class="header__top">
+					<div class="wrapper">
+						<div class="header-mob">
+							<div class="header-mob-btn js-mob-btn">
+								<button type="button" class="header-mob-btn__bars">
+									<span></span>
+									<span></span>
+									<span></span>
+								</button>
+								<button type="button" class="header-mob-btn__close iconic iconic--cross"></button>
+							</div>
+							<nav class="header-mob__menu wrapper">
+								<ul class="header-mob__list">
+									<li>
+										<a href="//lil-store.ru/catalog">Каталог игр</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/rand">Испытай удачу</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/catalog">Лидеры продаж</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/catalog">Новинки</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/catalog">Предзаказы</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/catalog">Скидки</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/catalog">Рекомендации</a>
+									</li>
+								</ul>
+								<ul class="header-mob__list header-mob__list--sm">
+									<li>
+										<a href="//lil-store.ru/page/how-to-buy">Как купить?</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/page/payment">Оплата</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/page/guarantee">Гарантии</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/page/contacts">Контакты</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/page/review">Отзывы</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/favourites">Избранное</a>
+									</li>
+									<li>
+										<a href="https://lil-store.ru/page/how-to-buy">Мои покупки</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<a href="/" class="header__logo">
+							<img src="//lil-store.ru/images/logo.png" alt="lil-store">
+						</a>
+						<div class="currency__dropdown">
+							<div class="dropdown js-dropdown" id="currency-listall">
+								<div class="dropdown__head-mob">
+									<select class="dropdown__head" id="currency-list" onchange="currencyList()">
+										<option value="RUB">RUB</option>
+									</select>
+								</div>
+								<div class="dropdown__head-main">
+									<div class="dropdown__head js-dropdown-btn">
+										<font id="currency_now">RUB</font>
+									</div>
+									<div class="dropdown__cont">
+										<ul class="currency__list">
+											<li class="currency__list-item _active" onclick="currencySelect('RUB')" id="currency_RUB">
+												RUB<span class="currency__symbol"><span class="rub">P</span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="header__main-col">
+							<div class="header__info-wr">
+								<ul class="header__info-links">
+									<li>
+										<a href="//lil-store.ru/page/how-to-buy" class="link link--black">
+											Как купить?
+										</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/page/payment" class="link link--black">
+											Оплата
+										</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/page/guarantee" class="link link--black">
+											Гарантии
+										</a>
+									</li>
+									<li>
+										<a href="//lil-store.ru/page/contacts" class="link link--black">
+											Контакты
+										</a>
+									</li>
+								</ul>
+								<div class="header_ico_catalog_wrap">
+									<a href="/page/review" class="header-ico-link">
+										<span class="iconic iconic--favs header-ico-link__ico"></span>
+										<span class="header-ico-link__txt">
+											Отзывы
+										</span>
+									</a>
+									<a href="//lil-store.ru/favourites" class="header-ico-link" style="padding: 0px; padding-left: 10px">
+										<span class="header-ico-link__ico header-ico-link__ico--cart ico_favourites"></span>
+										<span class="header-ico-link__txt" style="min-width: 90px">
+											Избранное <span id="favourites_count"> </span>
+										</span>
+									</a>
+									<a href="https://lil-store.ru/page/how-to-buy" class="header-ico-link"> <span class="header-ico-link__ico header-ico-link__ico--cart">
+										</span>
+										<span class="header-ico-link__txt">
+											Мои покупки
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="search-div">
+								<div class="search-wr js-live-search" data-delay="1000" data-url="/search/autocomplete">
+									<form action="/catalog" class="search-wr__main" method="get">
+										<input value="" type="search" name="ProductFilter[search]" class="search-wr__input js-live-search_input" placeholder="Поиск игр..." autocomplete="off" id="game-search-input">
+										<div class="search-wr__btns-pair">
+											<button type="submit" class="iconic iconic--lupa search-wr__submit"></button>
+										</div>
+									</form>
+									<div class="search-wr__loadout-wr js-live-search_loadout-wr">
+										<div class="search-wr__loadout js-live-search_loadout"></div>
+										<div class="search-wr__loadout-bot">
+											<a href="#" class="search-wr__loadout-bot-link js-live-search_all-link">
+												Все результаты
+											</a>
+										</div>
+									</div>
+								</div>
+								<p class="search-div__txt">
+									Здесь ты точно найдешь для себя что-то особенное!
+								</p>
+							</div>
+						</div>
+						<button type="button" class="iconic iconic--lupa header__mob-search js-search-toggle"></button>
+					</div>
+				</div>
+				<div class="header__nav">
+					<div class="wrapper">
+						<nav class="header-nav">
+							<div class="header-nav__group">
+								<a href="//lil-store.ru/catalog" class="header-nav__gr-link">
+									<span class="header-nav__gr-link-txt">
+										Каталог игр
+									</span>
+								</a>
+								<div class="header-nav__submenu">
+									<div class="wrapper">
+										<a href="//lil-store.ru/catalog" class="header-nav__smenu-item">
+											<div class="header-nav__smenu-ico">
+
+												<span class="iconic iconic--cat-action"></span>
+											</div>
+											<p class="header-nav__smenu-name">
+												Экшн
+											</p>
+										</a>
+										<a href="//lil-store.ru/catalog" class="header-nav__smenu-item">
+											<div class="header-nav__smenu-ico">
+												<span class="iconic iconic--cat-adventure"></span>
+											</div>
+											<p class="header-nav__smenu-name">
+												приключения
+											</p>
+										</a>
+										<a href="//lil-store.ru/catalog" class="header-nav__smenu-item">
+											<div class="header-nav__smenu-ico">
+												<span class="iconic iconic--cat-rpg"></span>
+											</div>
+											<p class="header-nav__smenu-name">
+												ролевые (RPG)
+											</p>
+										</a>
+										<a href="//lil-store.ru/catalog" class="header-nav__smenu-item">
+											<div class="header-nav__smenu-ico">
+												<span class="iconic iconic--cat-sim"></span>
+											</div>
+											<p class="header-nav__smenu-name">
+												симуляторы
+											</p>
+										</a>
+										<a href="//lil-store.ru/catalog" class="header-nav__smenu-item">
+											<div class="header-nav__smenu-ico">
+												<span class="iconic iconic--cat-strategy"></span>
+											</div>
+											<p class="header-nav__smenu-name">
+												стратегии
+											</p>
+										</a>
+										<a href="//lil-store.ru/catalog" class="header-nav__smenu-item">
+											<div class="header-nav__smenu-ico">
+												<span class="iconic iconic--cat-mmo"></span>
+											</div>
+											<p class="header-nav__smenu-name">
+												mmo
+											</p>
+										</a>
+										<a href="//lil-store.ru/catalog" class="header-nav__smenu-item">
+											<div class="header-nav__smenu-ico">
+												<span class="iconic iconic--cat-sport"></span>
+											</div>
+											<p class="header-nav__smenu-name">
+												спорт и гонки
+											</p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header-nav__group">
+								<a href="//lil-store.ru/rand" class="header-nav__gr-link">
+									<span class="header-nav__gr-link-txt">
+										Испытай удачу
+									</span>
+								</a>
+							</div>
+							<div class="header-nav__group">
+								<a href="//lil-store.ru/catalog" class="header-nav__gr-link">
+									<span class="header-nav__gr-link-txt">
+										Лидеры продаж
+									</span>
+								</a>
+							</div>
+							<div class="header-nav__group">
+								<a href="//lil-store.ru/catalog" class="header-nav__gr-link">
+									<span class="header-nav__gr-link-txt">
+										Новинки
+									</span>
+								</a>
+							</div>
+							<div class="header-nav__group">
+								<a href="//lil-store.ru/catalog" class="header-nav__gr-link">
+									<span class="header-nav__gr-link-txt">
+										Предзаказы
+									</span>
+								</a>
+							</div>
+							<div class="header-nav__group">
+								<a href="//lil-store.ru/catalog" class="header-nav__gr-link">
+									<span class="header-nav__gr-link-txt">
+										Скидки
+										<sup>
+											до 90%
+										</sup>
+									</span>
+								</a>
+							</div>
+							<div class="header-nav__group">
+								<a href="//lil-store.ru/catalog" class="header-nav__gr-link">
+									<span class="header-nav__gr-link-txt">
+										Рекомендации
+									</span>
+								</a>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<div class="page-body">
+				<div class="main-wr">
+					<div class="wrapper">
+						<style>
+							.steps {
+								background: #fff;
+								padding: 50px 30px 0;
+							}
+
+							.steps-block__item-title {
+								font: 700 18px / 26px Play, sans-serif;
+							}
+
+							.search-prod {
+								padding: 0;
+							}
+
+							.steps-block__item-col:last-child {
+								padding-left: 0;
+								padding-bottom: 10px;
+							}
+
+							.search-prod__main {
+								white-space: normal;
+							}
+
+							.search-prod__img-wr {
+								width: 70px;
+							}
+
+							hr {
+								border: 0;
+								height: 0;
+								border-top: 1px solid rgba(0, 0, 0, 0.1);
+								border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+							}
+
+							.steps-block .payment-types {
+								margin-bottom: 5px;
+							}
+
+							@media screen and (max-width: 900px) {
+								#blockIt {
+									display: block;
+								}
+
+								#blockIt #buy_info {
+									margin-left: 0px;
+									padding: 0;
+									max-width: 590px;
+									height: 100%;
+									display: flex;
+									margin: 0 auto;
+								}
+
+								#blockIt #buy_info div:first-child {
+									float: none;
+								}
+
+								#blockIt #product-mobile {
+									display: none;
+								}
+
+								#blockIt #product-mobile-standart {
+									display: block;
+								}
+							}
+
+							@media screen and (max-width: 470px) {
+								#blockIt {
+									display: block;
+								}
+
+								#blockIt .buy-steps:first-child {
+									min-width: none;
+									margin: 0;
+								}
+
+								#blockIt .payment-types__item-img {
+									display: none;
+								}
+
+								#blockIt .payment-types__item {
+									padding: 10px;
+									height: 100%;
+								}
+
+								#blockIt #buy_info {
+									width: 100%;
+								}
+
+								#blockIt #product-mobile {
+									display: block;
+								}
+
+								#blockIt #product-mobile-standart {
+									display: none;
+								}
+							}
+
+							@media screen and (min-width: 900px) {
+								#blockIt {
+									display: inline-flex;
+								}
+
+								#blockIt {
+									min-width: 590px;
+								}
+
+								#blockIt .payment-types__item-img {
+									display: block;
+								}
+
+								#blockIt .payment-types__item {
+									height: 176px;
+								}
+
+								#blockIt #buy_info {
+									margin-left: 10px;
+									padding: 0;
+									min-width: 300px;
+									float: left;
+									max-width: 300px;
+									height: 100%;
+								}
+
+								#blockIt #product-mobile {
+									display: none;
+								}
+
+								#blockIt #product-mobile-standart {
+									display: block;
+								}
+							}
+
+							.noUi-base {
+								background-color: #ffc608;
+							}
+
+							.noUi-origin {
+								background-color: #e1e3dd;
+							}
+
+							.icon--pay-apple {
+								background: url(//lil-store.ru/images/payments/apple.png) no-repeat;
+							}
+
+							.icon--pay-samsung {
+								background: url(//lil-store.ru/images/payments/samsungpay.png) no-repeat;
+							}
+
+							.icon--pay-google {
+								background: url(//lil-store.ru/images/payments/google.png) no-repeat;
+							}
+
+							.icon--pay-payeer {
+								background: url(//lil-store.ru/images/payments/payeer.png) no-repeat;
+							}
+
+							.icon--pay-pm {
+
+								background: url(//lil-store.ru/images/payments/pm.png) no-repeat;
+							}
+
+							.icon--pay-megaphone {
+								background: url(//lil-store.ru/images/payments/megafon.png) no-repeat;
+							}
+
+							.icon--pay-beeline {
+								background: url(//lil-store.ru/images/payments/beeline.png) no-repeat;
+							}
+
+							.icon--pay-mts {
+								background: url(//lil-store.ru/images/payments/mts.png) no-repeat;
+							}
+
+							.icon--pay-advcash {
+								background: url(//lil-store.ru/images/payments/advcash.png) no-repeat;
+							}
+
+							.icon--pay-tele2 {
+								background: url(//lil-store.ru/images/payments/tele2.png) no-repeat;
+							}
+
+							.payment-types__item-img .icon {
+								background-size: contain;
+								width: 50px;
+								height: 50px;
+							}
+
+						</style>
+
+						<form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+							<input type="hidden" name="receiver" value="">
+							<input type="hidden" name="formcomment" value="Вы проиграли: заказ №3293-26-19-234555">
+							<input type="hidden" name="short-dest" value="Оплата заказа №3293-26-19-234555">
+							<input type="hidden" name="label" value="Оплата заказа №3293-26-19-234555">
+							<input type="hidden" name="quickpay-form" value="donate">
+							<input type="hidden" name="targets" value="Оплата заказа №3293-26-19-234555">
+							<input type="hidden" name="sum" value="189" data-type="number">
+							<input type="hidden" name="successURL" value="https://lil-store.ru/buy/gpay">
+							<input type="hidden" name="comment" value="LiL-Store.ru - это интернет-магазин лицензионных steam">
+							<div style="margin: 0 auto; max-width: 900px;">
+								<div class="buy-steps">
+									<h1 class="h1">Покупка игры</h1>
+								</div>
+								<div class="buy-steps" style="margin: 0 auto; min-width: 100%;" id="blockIt">
+									<div class="buy-steps" style="padding: 0; max-width: 590px;">
+										<div class="js-steps steps _step1" id="steps">
+											<div class="js-steps-line steps-line" style="background-color: white;">
+												<div class="steps-line__row js-steps-row">
+													<div class="steps-line__item">
+														<div class="steps-line__item-number">
+															<span>1</span>
+														</div>
+														<div class="steps-line__item-title">Доставка</div>
+													</div>
+													<div class="steps-line__item">
+														<div class="steps-line__item-number">
+															<span>2</span>
+														</div>
+														<div class="steps-line__item-title">Оплата</div>
+													</div>
+													<div class="steps-line__item">
+														<div class="steps-line__item-number">
+															<span>3</span>
+														</div>
+														<div class="steps-line__item-title">Загрузка игры</div>
+													</div>
+												</div>
+												<div class="steps-line__row-clone js-steps-row-clone">
+													<div class="steps-line__row" style="width: 490px;">
+														<div class="steps-line__item steps-line__item--1">
+															<div class="steps-line__item-number s-active">
+																<span>1</span>
+															</div>
+														</div>
+														<div class="steps-line__item steps-line__item--2">
+															<div class="steps-line__item-number s-active">
+																<span>2</span>
+															</div>
+														</div>
+														<div class="steps-line__item steps-line__item--3">
+															<div class="steps-line__item-number s-active">
+																<span>3</span>
+															</div>
+														</div>
+													</div>
+													<div class="steps-line__progress p-active"></div>
+												</div>
+												<div class="steps-line__progress"></div>
+											</div>
+											<div class="js-steps-block steps-block" style="display: block; height: 589px;">
+												<div class="steps-block__inner">
+													<div class="steps-block__item _active" style="padding: 0 10px;">
+														<div>
+															<div class="steps-block__item-title steps-block__item-title--center">
+																Выберите способ оплаты
+															</div>
+															<div class="payment-types js-payment-types">
+																<label class="payment-types__item" data-type="pay-type" data-value="card">
+																	<input type="radio" name="via" data-baseformcheck="" value="card">
+																	<div class="payment-types__item-img">
+																		<span class="icon icon--pay-card"></span>
+																	</div>
+																	<label>
+																		<input type="radio" name="paymentType" value="AC">
+																		<h3 class="h5">Банковские карты</h3>
+																	</label>
+
+																	<div class="payment-types__item-text">Visa, Mastercard, Maestro</div>
+																</label>
+																<label class="payment-types__item" data-type="pay-type" data-value="card">
+																	<input type="radio" name="via" data-baseformcheck="" value="yandexmoney">
+																	<div class="payment-types__item-img">
+																		<span class="icon icon--pay-yandex_money"></span>
+																	</div>
+																	<label><input type="radio" name="paymentType" value="PC">
+																		<h3 class="h5">Yandex Money / ЮMoney</h3>
+																	</label>
+
+																	<div class="payment-types__item-text">Электронный кошелек</div>
+																</label>
+																<label class="payment-types__item" data-type="pay-type" data-value="megaphone">
+																	<input type="radio" name="via" data-baseformcheck="" value="megaphone">
+																	<div class="payment-types__item-img">
+																		<span class="icon icon--pay-megaphone"></span>
+																	</div>
+																	<label><input type="radio" name="paymentType" value="MC">
+																		<h3 class="h5">Мегафон</h3>
+																	</label>
+
+																	<div class="payment-types__item-text">Сотовый оператор</div>
+																</label>
+																<label class="payment-types__item" data-type="pay-type" data-value="beeline">
+																	<input type="radio" name="via" data-baseformcheck="" value="beeline">
+																	<div class="payment-types__item-img">
+																		<span class="icon icon--pay-beeline"></span>
+																	</div>
+																	<label><input type="radio" name="paymentType" value="MC">
+																		<h3 class="h5">Билайн</h3>
+																	</label>
+
+																	<div class="payment-types__item-text">Электронная платежная система</div>
+																</label>
+																<label class="payment-types__item" data-type="pay-type" data-value="mts">
+																	<input type="radio" name="via" data-baseformcheck="" value="mts">
+																	<div class="payment-types__item-img">
+																		<span class="icon icon--pay-mts"></span>
+																	</div>
+																	<label><input type="radio" name="paymentType" value="MC">
+																		<h3 class="h5">МТС</h3>
+																	</label>
+
+																	<div class="payment-types__item-text">Сотовый оператор</div>
+																</label>
+																<label class="payment-types__item" data-type="pay-type" data-value="tele2">
+																	<input type="radio" name="via" data-baseformcheck="" value="tele2">
+																	<div class="payment-types__item-img">
+																		<span class="icon icon--pay-tele2"></span>
+																	</div>
+																	<label><input type="radio" name="paymentType" value="MC">
+																		<h3 class="h5">
+																			<h3 class="h5">Tele2</h3>
+																		</h3>
+																	</label>
+
+																	<div class="payment-types__item-text">Сотовый оператор</div>
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="buy-steps__inner" style="display: block; padding: 0px; height: 100%;" id="buy_info">
+										<div class="steps-block__item" style="width: 100%; padding: 0;">
+											<div style="padding: 20px 30px 0px;">
+												<div class="steps-block__item-title steps-block__item-title--left" style="margin-top: 10px;">
+													Ваш e-mail<br>
+													<span style="font-size: 63%">(на него будет отправлен Ваш товар)</span>
+												</div>
+												<div class="form-group field-promo_code">
+													<input type="text" id="promo_code" class="input input--lg input--ta-cent" data-baseform="" name="email" placeholder="example@gmail.com" style="line-height: 38px; height: 40px;">
+													<div class="help-block"></div>
+												</div>
+												<div id="promocode-message" style="min-height: 20px;"></div>
+												<hr style="margin-top: 10px; margin-bottom: 20px;">
+												<div class="steps-block__item-title steps-block__item-title--left">
+													К оплате: <font style="float: right; font-size: 26px;">
+														<font>189 </font><span class="rub">Р</span>
+														<input type="text" id="amount_value" data-baseform="" name="amount" style="display: none;">
+													</font>
+												</div>
+												<br>
+											</div>
+
+											<div class="steps-block__item-btn" style="margin-bottom: 0;">
+												<input class="btn btn--orng btn--xlg" type="submit" style="border-radius: 0; width: 100%; height: 60px; padding: 15px 35px;" value="Оплатить">
+
+											</div>
+											<div id="hiddenForm_containerJS" style="display: none;"></div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<style>
+					.page-title--small.rekomend {
+						font-size: 30px;
+					}
+
+					.steps-block__item {
+						float: none;
+						margin: auto;
+					}
+
+					.steps-line {
+						z-index: 0;
+					}
+
+					@media screen and (min-width: 1021px) {
+						.page-header__content--smpad {
+							padding: 20px 0 28px;
+						}
+					}
+
+				</style>
+			</div>
+		</div>
+	</div>
+
+
+
+	<footer class="footer">
+		<div class="footer__main">
+			<div class="wrapper">
+				<nav class="footer__nav">
+					<ul>
+						<li>
+							<a href="//lil-store.ru/catalog" class="footer__nav-link">
+								Каталог игр
+							</a>
+						</li>
+						<li>
+							<a href="//lil-store.ru/rand" class="footer__nav-link">
+								Испытай удачу
+							</a>
+						</li>
+						<li>
+							<a href="//lil-store.ru/catalog" class="footer__nav-link">
+								Топ продаж
+							</a>
+						</li>
+						<li>
+							<a href="//lil-store.ru/catalog" class="footer__nav-link">
+								Новинки
+							</a>
+						</li>
+						<li>
+							<a href="//lil-store.ru/catalog" class="footer__nav-link">
+								Предзаказы
+							</a>
+						</li>
+						<li>
+							<a href="//lil-store.ru/catalog" class="footer__nav-link">
+								Скидки
+							</a>
+						</li>
+						<li>
+							<a href="//lil-store.ru/catalog" class="footer__nav-link">
+								Рекомендации
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__info">
+					<div class="footer__info-commerc">
+						<p class="footer__legal">
+							Приобретая ключи на нашем сайте, вы гарантированно получаете проверенные ключи, покупаемые у официальных поставщиков.
+						</p>
+						<div class="footer__pay-syst">
+							<img src="//lil-store.ru/lilimages/pay-systems.png" alt="">
+						</div>
+					</div>
+					<div class="footer__info-soc">
+						<div class="footer__yt-wr">
+							<a target="_blank" href="//lil-store.ru/user/onlinegamercentral.html" class="footer__youtube">
+								<span>
+									Смотрите обзор игр
+									на Youtube-канале
+								</span>
+							</a>
+						</div>
+						<div class="social-links social-links--grey">
+							<a target="_blank" class="fa fa-vk"></a>
+							<a target="_blank" class="fa fa-twitter"></a>
+							<a target="_blank" class="fa fa-youtube"></a>
+							<a target="_blank" class="fa fa-facebook"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="wrapper">
+				<p class="footer__cr">
+					lil-store.ru © 2014-2020
+				</p>
+			</div>
+		</div>
+	</footer>
+	<div class="pswp js-pswp" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="//lil-store.ru/scripts/ajax.js"></script>
+	<script src="//lil-store.ru/scripts/buy.js"></script>
+	<script src="//lil-store.ru/scripts/lib1f55.js?v=1505251592"></script>
+	<script src="//lil-store.ru/scripts/app9835.js?v=1505251598"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(68212165, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/68212165" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+
+
+</html>
