@@ -381,10 +381,71 @@
  								<div class="game-body__wrapper theiaStickySidebar" id="js-fixed-block" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
  									<div class="game-body__section game-body__section--first">
  										<section class="game-body__wandering game-body__wandering--first" data-parent-desktop=".game-body__section--first" data-parent-mobile=".game-body__stationary--first">
- 											<div class="gameposter game-image">
- 												<img src="../images/product/sea0.jpg" alt="">
+
+ 											<div class="game-body__section game-body__section--first">
+ 												<section class="game-body__wandering game-body__wandering--first" data-parent-desktop=".game-body__section--first" data-parent-mobile=".game-body__stationary--first">
+ 													<div class="gameposter game-image">
+ 														<img src="../images/product/sea0.jpg" alt="">
+ 													</div>
+ 												</section>
  											</div>
+
+
+
+ 											<ul class="game-features">
+ 												<form id="w1" action="https://lil-store.ru/catalog" method="get" style="width: 100%">
+ 													<div class="form-group field-productfilter-characteristic-0">
+
+ 														<input type="hidden" id="productfilter-characteristic-0" class="form-control" name="ProductFilter[characteristic][0]" value="213">
+
+ 														<p class="help-block help-block-error"></p>
+ 													</div>
+ 													<li class="game-features__item">
+ 														<!-- <a class="game-features__link"> -->
+ 														<button type="submit" style="width: 100%; line-height: inherit"><a class="game-features__link"><span class="game-features__icon"><span class="ion-android-people"></span></span>Кооператив</a></button> </li>
+ 												</form>
+ 												<form id="w2" action="https://lil-store.ru/catalog" method="get" style="width: 100%">
+ 													<div class="form-group field-productfilter-characteristic-1">
+
+ 														<input type="hidden" id="productfilter-characteristic-1" class="form-control" name="ProductFilter[characteristic][1]" value="218">
+
+ 														<p class="help-block help-block-error"></p>
+ 													</div>
+ 													<li class="game-features__item">
+ 														<!-- <a class="game-features__link"> -->
+ 														<button type="submit" style="width: 100%; line-height: inherit"><a class="game-features__link"><span class="game-features__icon"><span class="ion-android-person"></span></span>Одиночная игра</a></button> </li>
+ 												</form>
+ 												<form id="w3" action="https://lil-store.ru/catalog" method="get" style="width: 100%">
+ 													<div class="form-group field-productfilter-characteristic-2">
+
+ 														<input type="hidden" id="productfilter-characteristic-2" class="form-control" name="ProductFilter[characteristic][2]" value="220">
+
+ 														<p class="help-block help-block-error"></p>
+ 													</div>
+ 													<li class="game-features__item">
+ 														<!-- <a class="game-features__link"> -->
+ 														<button type="submit" style="width: 100%; line-height: inherit"><a class="game-features__link"><span class="game-features__icon"><span class="ion-ios-cloud"></span></span>Steam Cloud</a></button> </li>
+ 												</form>
+ 											</ul>
+
  										</section>
+
+ 									</div>
+ 									<div class="game-body__section game-body__section--second">
+ 										<section class="game-body__wandering game-body__wandering--second" data-parent-desktop=".game-body__section--second" data-parent-mobile=".game-body__stationary--second">
+
+ 											<div class="game-metacritic">
+ 												<div class="game-metacritic__count" style="background-color: #6c3;">67</div>
+ 												<a href="https://www.metacritic.com/game/pc/sea-of-thieves" target="_blank" class="game-metacritic__link">
+ 													<img class="game-metacritic__logo" src="../images/metacritic.png" alt="">
+ 													<span class="game-metacritic__text">Прочитать рецензии критиков</span>
+ 												</a>
+ 											</div>
+
+
+
+ 										</section>
+
  									</div>
  									<div class="game-body__section game-body__section--second">
  										<section class="game-body__wandering game-body__wandering--second" data-parent-desktop=".game-body__section--second" data-parent-mobile=".game-body__stationary--second">
@@ -595,16 +656,20 @@
  															<span class="available__icon available__icon--green">
  																<span class="ion-android-done"></span>
  															</span>
+
  															<span class="available__text" style="color: #1b1a1e;">Более 100 положительных <a href="../page/review" target="_blank" style="color: #1b1a1e; border-bottom: 1px solid rgba(0, 0, 0, .2);">отзывов</a></span>
  														</div>
  													</div>
  													<div class="game-deal__col">
- 														<div class="available">
- 															<div class="heart_catalog_wrap2">
- 																<span class="available__icon">
- 																	<img src="../images/tovar_catalog.png">
- 																</span>
- 																<span class="available__text">В наличие осталось товара: <span style="color:#f34635; font-weight: bold;">мало</span></span>
+
+ 														<div class="game-deal__col">
+ 															<div class="available">
+ 																<div class="heart_catalog_wrap2">
+ 																	<span class="available__icon">
+ 																		<img src="../images/catalog/tovar_catalog.svg">
+ 																	</span>
+ 																	<span class="available__text">Данный товар приобрели сегодня 15 раз</span>
+ 																</div>
  															</div>
  														</div>
  													</div>
@@ -638,7 +703,7 @@
  												<li class="store-features__item store-features__item--cacheback">Поддержка клиентов 24/7</li>
  											</ul>
  										</section>
- 										 
+
  										<section class="game-media">
  											<div class="game-media__tabs tabs js-tabs tabs--game-view">
  												<div class="game-media__controls tabs__controlls game-media__header">
@@ -835,16 +900,286 @@
  										</section>
 
 
-  
+
 
 
  									</section>
 
+ 									<!-- On mobile game-recomended be here -->
  									<section class="game-body__stationary game-body__stationary--fifth"></section>
 
- 									<section class="game-body__stationary game-body__stationary--third">
+ 									<section class="game-review" id="comments">
+ 										<h3 class="h3 game-review__title">
+ 											Комментарии к игре Sea of Thieves <small data-type="total-comments-count">(181)</small>
+ 										</h3>
+
+
+ 										<div class="comments-wr">
+ 											<div class="no-login">
+ 												Здесь модно узнать много интересного! </div>
+
+ 											<div id="comments2" data-pjax-container="" data-pjax-push-state="" data-pjax-timeout="1000">
+ 												<div class="comms-list__comm-wr " style="">
+ 													<div class="comment">
+ 														<div class="avatar">
+ 															<span class="avatar__img">
+ 																<img src="..//images/avatar/20.jpg" alt="">
+ 															</span>
+ 														</div>
+ 														<div class="comment__main" style="">
+ 															<div class="comment__speech">
+ 																<p>
+ 																	Все великолепно, все мгновенно пришло. 10 из 10 </p>
+ 															</div>
+
+ 															<div class="comment__bot">
+ 																<span class="comment__date">
+ 																	Просто Тсунг, сегодня в 02:38 </span>
+
+ 															</div>
+ 														</div>
+ 													</div>
+ 													<div class="comms-list__comm-wr">
+ 														<div class="comms-list__comm-wr " style="">
+ 															<div class="comment">
+ 																<div class="avatar">
+ 																	<span class="avatar__img">
+ 																		<img src="..//images/avatar/100x100_Be8FaDBt-yObMoAVudNgot0rA6vrbZfa.jpg" alt="">
+ 																	</span>
+ 																</div>
+ 																<div class="comment__main" style="">
+ 																	<div class="comment__speech">
+ 																		<p>
+ 																			Спасибо за вашу покупку и отзыв! Мы рады, что вы выбираете именно нас! </p>
+ 																	</div>
+
+ 																	<div class="comment__bot">
+ 																		<span class="comment__date">
+ 																			<p class="admin_comment">Администрация</p>
+ 																			, сегодня в 13:16
+ 																		</span>
+
+ 																	</div>
+ 																</div>
+ 															</div>
+ 															<div class="comms-list__comm-wr">
+ 															</div>
+ 														</div>
+ 													</div>
+ 												</div>
+ 												<div class="comms-list__comm-wr " style="">
+ 													<div class="comment">
+ 														<div class="avatar">
+ 															<span class="avatar__img">
+ 																<img src="..//images/avatar/21.jpg" alt="">
+ 															</span>
+ 														</div>
+ 														<div class="comment__main" style="">
+ 															<div class="comment__speech">
+ 																<p>
+ 																	Ключи приходят мгновенно благодарю ребята за приятный дизайн сайта и оперативные быстрые системы правда с оплатой из украины могут возникнуть проблемы но впн вам в помощь а в целом магазин 10/10
+ 																	и как веб дизайнер замечу что сайт сверстан на редкость хорошо. </p>
+ 															</div>
+
+ 															<div class="comment__bot">
+ 																<span class="comment__date">
+ 																	Капитан Мейер, 09.May.2020 в 13:56 </span>
+
+ 															</div>
+ 														</div>
+ 													</div>
+ 													<div class="comms-list__comm-wr">
+ 														<div class="comms-list__comm-wr " style="">
+ 															<div class="comment">
+ 																<div class="avatar">
+ 																	<span class="avatar__img">
+ 																		<img src="..//images/avatar/100x100_Be8FaDBt-yObMoAVudNgot0rA6vrbZfa.jpg" alt="">
+ 																	</span>
+ 																</div>
+ 																<div class="comment__main" style="">
+ 																	<div class="comment__speech">
+ 																		<p>
+ 																			Спасибо за добрые слова и ваши покупки! Мы рады помочь вам сэкономить) </p>
+ 																	</div>
+
+ 																	<div class="comment__bot">
+ 																		<span class="comment__date">
+ 																			<p class="admin_comment">Администрация</p>
+ 																			, 09.May.2020 в 15:30
+ 																		</span>
+
+ 																	</div>
+ 																</div>
+ 															</div>
+ 															<div class="comms-list__comm-wr">
+ 															</div>
+ 														</div>
+ 													</div>
+ 												</div>
+ 												<div class="comms-list__comm-wr " style="">
+ 													<div class="comment">
+ 														<div class="avatar">
+ 															<span class="avatar__img">
+ 																<img src="..//images/avatar/9.jpg" alt="">
+ 															</span>
+ 														</div>
+ 														<div class="comment__main" style="">
+ 															<div class="comment__speech">
+ 																<p>
+ 																	Ключи приходят моментально, проблем с этим сайтом никогда не было) Спасибо ребята за работу. </p>
+ 															</div>
+
+ 															<div class="comment__bot">
+ 																<span class="comment__date">
+ 																	Гэндальф Феникс, 30.Apr.2020 в 23:46 </span>
+
+ 															</div>
+ 														</div>
+ 													</div>
+ 													<div class="comms-list__comm-wr">
+ 														<div class="comms-list__comm-wr " style="">
+ 															<div class="comment">
+ 																<div class="avatar">
+ 																	<span class="avatar__img">
+ 																		<img src="..//images/avatar/100x100_Be8FaDBt-yObMoAVudNgot0rA6vrbZfa.jpg" alt="">
+ 																	</span>
+ 																</div>
+ 																<div class="comment__main" style="">
+ 																	<div class="comment__speech">
+ 																		<p>
+ 																			Спасибо за вашу покупку и отзыв! Мы рады, что вы выбираете именно наш магазин! </p>
+ 																	</div>
+
+ 																	<div class="comment__bot">
+ 																		<span class="comment__date">
+ 																			<p class="admin_comment">Администрация</p>
+ 																			, 01.May.2020 в 11:14
+ 																		</span>
+
+ 																	</div>
+ 																</div>
+ 															</div>
+ 															<div class="comms-list__comm-wr">
+ 															</div>
+ 														</div>
+ 													</div>
+ 												</div>
+ 												<div class="comms-list__comm-wr " style="">
+ 													<div class="comment">
+ 														<div class="avatar">
+ 															<span class="avatar__img">
+ 																<img src="..//images/avatar/7.jpg" alt="">
+ 															</span>
+ 														</div>
+ 														<div class="comment__main" style="">
+ 															<div class="comment__speech">
+ 																<p>
+ 																	Здравствуйте, остались еще ключики с бонусами? </p>
+ 															</div>
+
+ 															<div class="comment__bot">
+ 																<span class="comment__date">
+ 																	Тревор Кеннеди, 29.Apr.2020 в 21:19 </span>
+
+ 															</div>
+ 														</div>
+ 													</div>
+ 													<div class="comms-list__comm-wr">
+ 														<div class="comms-list__comm-wr " style="">
+ 															<div class="comment">
+ 																<div class="avatar">
+ 																	<span class="avatar__img">
+ 																		<img src="..//images/avatar/100x100_Be8FaDBt-yObMoAVudNgot0rA6vrbZfa.jpg" alt="">
+ 																	</span>
+ 																</div>
+ 																<div class="comment__main" style="">
+ 																	<div class="comment__speech">
+ 																		<p>
+ 																			Да, ещё достаточно много) </p>
+ 																	</div>
+
+ 																	<div class="comment__bot">
+ 																		<span class="comment__date">
+ 																			<p class="admin_comment">Администрация</p>
+ 																			, 30.Apr.2020 в 00:13
+ 																		</span>
+
+ 																	</div>
+ 																</div>
+ 															</div>
+ 															<div class="comms-list__comm-wr">
+ 															</div>
+ 														</div>
+ 													</div>
+ 												</div>
+ 												<div class="comms-list__comm-wr " style="">
+ 													<div class="comment">
+ 														<div class="avatar">
+ 															<span class="avatar__img">
+ 																<img src="..//images/avatar/100x100_e5ERHT5B7VPiDdm8zNtx6rmragEQICWH.jpg" alt="">
+ 															</span>
+ 														</div>
+ 														<div class="comment__main" style="">
+ 															<div class="comment__speech">
+ 																<p>
+ 																	Здравствуйте! Здесь пишут, что в вашем ключе также есть бонус предзаказа в виде классических костюмов? А в составе издания такого описания не обозначено. </p>
+ 															</div>
+
+ 															<div class="comment__bot">
+ 																<span class="comment__date">
+ 																	Eugene Kindryashov, 28.Apr.2020 в 23:34 </span>
+
+ 															</div>
+ 														</div>
+ 													</div>
+ 													<div class="comms-list__comm-wr">
+ 														<div class="comms-list__comm-wr " style="">
+ 															<div class="comment">
+ 																<div class="avatar">
+ 																	<span class="avatar__img">
+ 																		<img src="..//images/avatar/100x100_Be8FaDBt-yObMoAVudNgot0rA6vrbZfa.jpg" alt="">
+ 																	</span>
+ 																</div>
+ 																<div class="comment__main" style="">
+ 																	<div class="comment__speech">
+ 																		<p>
+ 																			Это указано в отдельном окне "Бонусы предзаказа". Они действительно есть. </p>
+ 																	</div>
+
+ 																	<div class="comment__bot">
+ 																		<span class="comment__date">
+ 																			<p class="admin_comment">Администрация</p>
+ 																			, 29.Apr.2020 в 12:10
+ 																		</span>
+
+ 																	</div>
+ 																</div>
+ 															</div>
+ 															<div class="comms-list__comm-wr">
+ 															</div>
+ 														</div>
+ 													</div>
+ 												</div>
+
+
+
+
+
+ 												<a class="btn btn--more" href="../page/review">
+
+ 													Показать еще
+ 												</a>
+
+ 												<!--<button href="../page/review" type="button" class="btn btn--more" data-action="show-all">Показать еще</button>-->
+ 											</div>
+ 										</div>
+
  									</section>
 
+ 									<!-- On mobile game-similar be here -->
+ 									<section class="game-body__stationary game-body__stationary--third">
+ 									</section>
+ 									<!-- On mobile game-random be here -->
  									<section class="game-body__stationary game-body__stationary--sixth">
  									</section>
  								</div>
@@ -1029,7 +1364,7 @@
  			}
 
  	</style>
- 	 
+
  </body>
 
  </html>
