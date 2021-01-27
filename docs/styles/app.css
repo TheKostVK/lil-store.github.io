@@ -5619,9 +5619,7 @@
  }
 
  .search-prod__name {
- 	border-radius: 20px;
- 	line-height: 20px;
- 	background: #ccc;
+
  	font-size: 15px;
  	line-height: 22px
  }
