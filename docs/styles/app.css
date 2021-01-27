@@ -856,6 +856,7 @@
  }
 
  .search-wr__input {
+
  	background: #fff;
  	border: 2px solid #ffc608;
  	border-radius: 4px;
@@ -997,7 +998,13 @@
  	text-decoration: underline
  }
 
- .btn,
+ .btn {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
+ }
+
+ ,
  .link,
  .search-prod,
  .game-warning a {
@@ -5009,6 +5016,7 @@
  }
 
  .comment {
+
  	text-align: left;
  	padding: 22px 10px 22px 0;
  	font-size: 0
@@ -5146,6 +5154,7 @@
  }
 
  .comment--in-slide {
+
  	background-color: #fff;
  	padding: 20px 22px 15px
  }
@@ -5186,6 +5195,9 @@
  }
 
  .no-login {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	background-color: #f2f2f2;
  	text-align: center;
  	font-size: 18px;
@@ -5803,14 +5815,17 @@
  }
 
  .tabs__tab {
+
  	display: none
  }
 
  .tabs__tab._active {
+
  	display: block
  }
 
  .tabs--game-view .oblique-btns {
+
  	padding-top: 0;
  	text-align: left;
  	margin-left: -2px;
@@ -6092,6 +6107,7 @@
 
  .game-gall,
  .gameposter {
+
  	position: relative
  }
 
