@@ -1655,6 +1655,9 @@
  }
 
  .text-page {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	padding: 30px 25px 50px;
  	background-color: #fff
  }
