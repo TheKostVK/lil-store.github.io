@@ -355,6 +355,9 @@
 }
 
 .catalog-card__inner {
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	position: relative;
 	width: 100%;
 	display: block;
@@ -363,6 +366,9 @@
 }
 
 .catalog-card__img {
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -424,6 +430,9 @@
 }
 
 .catalog-card__price {
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	font-size: 16px;
 	padding-left: 10px
 }
@@ -488,6 +497,9 @@
 }
 
 .catalog-card__hover {
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -547,6 +559,7 @@
 }
 
 .catalog-card__hover-price {
+
 	background-color: #ffc608;
 	padding: 12px 36px;
 	font-size: 17px;

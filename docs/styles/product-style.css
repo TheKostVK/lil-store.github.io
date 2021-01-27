@@ -293,6 +293,9 @@
 }
 
 .game-image {
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	width: 100%;
 	height: auto
 }
@@ -582,7 +585,9 @@
 }
 
 .game-parametrs {
-
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 34px 40px 0;
@@ -1272,7 +1277,9 @@
 }
 
 .game-features {
-
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -1997,6 +2004,7 @@
 }
 
 .game-recomended {
+
 	position: relative;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -2023,6 +2031,9 @@
 }
 
 .game-recomended__poster {
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	width: 100%;
 	height: auto
 }
@@ -2045,6 +2056,9 @@
 }
 
 .game-recomended__button {
+	border-radius: 20px;
+	line-height: 20px;
+	background: #ccc;
 	position: absolute;
 	display: inline-block;
 	bottom: 40px;

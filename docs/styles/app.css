@@ -7,6 +7,12 @@
  	font-family: Play, sans-serif
  }
 
+ .ellips {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
+ }
+
  .btn,
  .slick-slide,
  button,
@@ -925,6 +931,9 @@
  }
 
  .search-wr__loadout-wr {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	position: absolute;
  	z-index: 10;
  	top: 100%;
@@ -2203,6 +2212,9 @@
  }
 
  .btn--lg {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	font-size: 24px;
  	line-height: 30px;
  	padding: 16px 25px;
@@ -2224,6 +2236,9 @@
  }
 
  .btn--orng {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	background-color: #ffc608;
  	color: #000
  }
@@ -2292,6 +2307,9 @@
  }
 
  .btn--more {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	display: block;
  	width: 100%;
  	line-height: 20px;
@@ -3055,6 +3073,9 @@
  }
 
  .dropdown__head {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	font-size: 14px;
  	line-height: 20px;
  	background-color: #fff;
@@ -3678,6 +3699,9 @@
  }
 
  .discount {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	background-color: #ffc608;
  	border-radius: 13px;
  	padding: 0 10px;
@@ -5595,6 +5619,9 @@
  }
 
  .search-prod__name {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	font-size: 15px;
  	line-height: 22px
  }
@@ -6107,8 +6134,10 @@
 
  .game-gall,
  .gameposter {
-
- 	position: relative
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
+ 	b position: relative
  }
 
  .gl-item__bf-desc {
@@ -6184,6 +6213,9 @@
  }
 
  .gameposter > img {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	display: block;
  	width: 100%
  }
