@@ -324,14 +324,23 @@
  }
 
  ::-webkit-scrollbar-track {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	background: #f6f6f6
  }
 
  ::-webkit-scrollbar {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	width: 10px
  }
 
  ::-webkit-scrollbar-thumb {
+ 	border-radius: 20px;
+ 	line-height: 20px;
+ 	background: #ccc;
  	background-color: #ffc608;
  	cursor: pointer
  }
