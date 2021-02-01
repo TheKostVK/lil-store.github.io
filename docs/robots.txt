@@ -1,10 +1,8 @@
 User-agent: *
 Disallow: /buy
 Disallow: /pay
-Disallow: /page
 Disallow: /user
 Disallow: /profiles
-Disallow: /favicon
 Disallow: /copy
 Disallow: /collections
 Disallow: /developers
